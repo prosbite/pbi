@@ -1,0 +1,42 @@
+.m-auto {
+	margin:auto;
+}
+
+.hero {
+	background-image: url('img/foggy-gray.png');
+}
+
+.nav a:hover {
+	color: #34495e;
+	border-top: 2px solid #e67e22;
+}
+
+.nav .active {
+	color: #34495e;
+	border-top: 2px solid #e67e22;
+}
+
+.min-h-80 {
+	min-height: 900px;
+}
+
+.flex1 {
+	flex: 1;
+}
+
+.text-orange {
+	color: #e67e22;
+}
+
+.bg-orange {
+	background-color: #e67e22;
+}
+
+.text-darkblue {
+	color:#34495e;
+}
+
+.economy {
+	background-image: url(img/torn.png);
+	background-size: cover;
+}
