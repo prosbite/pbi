@@ -13,7 +13,7 @@
 		<section class="head flex flex-col">
 			<div class="top py-4 px-60">
 				<div class="logo flex flex-row items-center">
-					<a href="home.html"><img src="img/logo.jpg" class="pr-16" alt="Logo"></a>
+					<a href="/"><img src="img/logo.jpg" class="pr-16" alt="Logo"></a>
 					<div class="h-16 border-l border-gray-200"></div>
 					<div class="flex pl-16 items-center mr-16">
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-5 text-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
