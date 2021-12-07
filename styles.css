@@ -6,9 +6,35 @@
 	background-image: url('img/foggy-gray.png');
 }
 
-.nav a:hover {
+.nav > div:hover > a {
 	color: #34495e;
 	border-top: 2px solid #e67e22;
+}
+
+.nav > div:hover .dropdown {
+	visibility: visible;
+	opacity: 100;
+	transform: translateY(0px);
+}
+
+.nav .nav-dropdown .dropdown{
+	visibility:hidden;
+	transition: .4s ease all;
+	opacity: 0;
+	transform: translateY(50px);
+	box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+  	border-bottom-left-radius: 3px;
+  	border-bottom-right-radius: 3px;
+}
+
+.nav > div:hover .dropdown a {
+	transition: .2s ease all;
+}
+
+.nav > div:hover .dropdown a:hover {
+	color: #e67e22;
+	padding-left: 7px;
+	font-weight: bold;
 }
 
 .nav .active {
